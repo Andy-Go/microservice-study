@@ -1,0 +1,16 @@
+server:
+   port: 8905
+spring:
+   application:
+      name: user-client-semaphore
+   zipkin:
+      baseUrl: http://localhost:7777
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka
+info:
+  description: UserInfo client semaphore
+management:
+    security:
+        enabled: false

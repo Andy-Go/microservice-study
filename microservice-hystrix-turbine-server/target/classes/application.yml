@@ -1,0 +1,16 @@
+server:
+   port: 8904
+spring:
+  application:
+    name: hystrix-turbine-server
+eureka:
+ client:
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka
+ instance:
+  prefer-ip-address: true
+turbine:
+  aggregator:
+    clusterConfig: default #USER-CLIENT-FEIGN
+  appConfig: user-client-feign,user-client
+  clusterNameExpression: "'default'"

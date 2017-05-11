@@ -1,0 +1,21 @@
+server:
+   port: 8900
+spring:
+   application:
+      name: user-client
+   zipkin:
+      baseUrl: http://localhost:7777
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka
+info:
+  description: UserInfo client
+management:
+    security:
+        enabled: false
+hystrix:
+  command:
+     default:
+        circuitBreaker:
+         requestVolumeThreshold: 5

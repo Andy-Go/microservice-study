@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-account-service" />
+        <module name="microservice-eureka-server" />
+        <module name="microservice-hystrix-dashboard-server" />
+        <module name="microservice-hystrix-turbine-server" />
+        <module name="microservice-user-client" />
+        <module name="microservice-user-client-feign" />
+        <module name="microservice-user-client-semaphore" />
+        <module name="microservice-user-service" />
+        <module name="microservice-zipkin-server" />
+        <module name="miroservice-eureka-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cs-demo" target="1.8" />
+      <module name="Eli" target="1.8" />
+      <module name="microservice-account-service" target="1.8" />
+      <module name="microservice-dashboard-server" target="1.8" />
+      <module name="microservice-eureka-server" target="1.8" />
+      <module name="microservice-hystrix-dashboard-server" target="1.8" />
+      <module name="microservice-hystrix-turbine-server" target="1.8" />
+      <module name="microservice-study" target="1.8" />
+      <module name="microservice-user-client" target="1.8" />
+      <module name="microservice-user-client-feign" target="1.8" />
+      <module name="microservice-user-client-semaphore" target="1.8" />
+      <module name="microservice-user-service" target="1.8" />
+      <module name="microservice-zipkin-server" target="1.8" />
+      <module name="microserviceuserservice" target="1.8" />
+      <module name="miroservice-eureka-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+server:
+   port: 8092
+spring:
+   application:
+      name: account-service
+   zipkin:
+      baseUrl: http://localhost:7777
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka
+info:
+  description: Account Server

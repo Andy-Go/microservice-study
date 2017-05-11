@@ -1,0 +1,13 @@
+server:
+   port: 8091
+spring:
+   application:
+      name: user-service
+   zipkin:
+       baseUrl: http://localhost:7777
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka
+info:
+  description: Userinfo Server

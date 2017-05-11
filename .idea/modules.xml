@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/microservice-account-service/microservice-account-service.iml" filepath="$PROJECT_DIR$/microservice-account-service/microservice-account-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-eureka-server/microservice-eureka-server.iml" filepath="$PROJECT_DIR$/microservice-eureka-server/microservice-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-dashboard-server/microservice-hystrix-dashboard-server.iml" filepath="$PROJECT_DIR$/microservice-hystrix-dashboard-server/microservice-hystrix-dashboard-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-turbine-server/microservice-hystrix-turbine-server.iml" filepath="$PROJECT_DIR$/microservice-hystrix-turbine-server/microservice-hystrix-turbine-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-study.iml" filepath="$PROJECT_DIR$/microservice-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-user-client/microservice-user-client.iml" filepath="$PROJECT_DIR$/microservice-user-client/microservice-user-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-user-client-feign/microservice-user-client-feign.iml" filepath="$PROJECT_DIR$/microservice-user-client-feign/microservice-user-client-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-user-client-semaphore/microservice-user-client-semaphore.iml" filepath="$PROJECT_DIR$/microservice-user-client-semaphore/microservice-user-client-semaphore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-user-service/microservice-user-service.iml" filepath="$PROJECT_DIR$/microservice-user-service/microservice-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-zipkin-server/microservice-zipkin-server.iml" filepath="$PROJECT_DIR$/microservice-zipkin-server/microservice-zipkin-server.iml" />
+    </modules>
+  </component>
+</project>
